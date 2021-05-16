@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index.css" rel="stylesheet" />
+    <script defer src="app.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container main_contain">
+      <h3>This Quiz has five questions.</h3>
+      <p>
+        You will get one point for each questions.You can try as many times you
+        wanny try..
+      </p>
+      <button class="start_btn">Start Quiz</button>
+    </div>
+
+    <div class="container question_contain hide">
+      <div class="question_no"></div>
+      <div class="question"></div>
+      <div class="options">
+        <button type="button" class="opt" id="opt1"></button>
+        <button type="button" class="opt" id="opt2"></button>
+        <button type="button" class="opt" id="opt3"></button>
+        <button type="button" class="opt" id="opt4"></button>
+      </div>
+      <button id="next" class="start_btn">Next</button>
+    </div>
+
+    <div class="container result_pg hide">
+      <div class="output ">
+        <div class="totalScore row"></div>
+        <div class="questNtAttempted row"></div>
+        <div class="wrongQuest row"></div>
+      </div>
+      <button class="start_btn try_again">Try Again</button>
+    </div>
+  </body>
+</html>
